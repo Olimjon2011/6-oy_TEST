@@ -10,12 +10,12 @@ export default function SinglePage() {
     let singleProduct = product.find((item) => item.id === id)
   return (
     <div className="main">
-        <Header/>
+        <Header />
         <div className="singleproduct">
           <img src={singleProduct.img} alt="singleproduct" />
-          <h1>Mahsulot: {singleProduct.title}</h1>
-          <h2>1dona = {singleProduct.price} so'm</h2>
-          <h6>O'zbekistonda ishlab chiqarilgan</h6>
+          <h1>Продукт: {singleProduct.title}</h1>
+          <h2>1штук = {singleProduct.price} so'm</h2>
+          <h6>Страна производителя: Узбекистан</h6>
           <button onClick={() => addToBasket(id)}>В корзину</button>
         </div>
         <Footer />
