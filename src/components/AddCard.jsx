@@ -4,7 +4,7 @@ import Footer from "./HomePage/Footer/Footer";
 import Header from "./HomePage/Header/Header";
 import './Products/Products.css'
 
-export default function AddCard() {
+export default function AddCard({goToAddCard}) {
   const {
     name,
     setName,

@@ -3,7 +3,7 @@ import '../App.css'
 import Header from "./HomePage/Header/Header";
 import Footer from "./HomePage/Footer/Footer";
 import { useGlobalContext } from "../context";
-export default function SinglePage() {
+export default function SinglePage({goToAddCard}) {
   const {product, addToBasket} = useGlobalContext()
     const {id} = useParams();
     let singleProduct = product.find((item) => item.id === id)

@@ -3,7 +3,7 @@ import Header from "../components/HomePage/Header/Header";
 import Products from "../components/Products/Products";
 import { useGlobalContext } from "../context";
 
-export default function AllProducts() {
+export default function AllProducts({goToAddCard}) {
   const { goToAddCard } = useGlobalContext();
   return (
     <div>

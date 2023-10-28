@@ -3,7 +3,7 @@ import Header from "../components/HomePage/Header/Header";
 import '../App.css'
 import { useGlobalContext } from "../context";
 
-export default function Basket() {
+export default function Basket({goToAddCard}) {
   const { basket } = useGlobalContext()
   return (
     <div>
