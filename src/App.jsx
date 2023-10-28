@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={user && <Home />} />
+        <Route path="/" element={user && <LogIn />} />
         <Route path="/favourites" element={<Favourites />} />
         <Route path="/allproducts" element={<AllProducts />} />
         <Route path="/basket" element={<Basket />} />
