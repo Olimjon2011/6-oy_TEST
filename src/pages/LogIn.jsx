@@ -19,7 +19,7 @@ export default function LogIn() {
   return (
     <div className="login">
       <form className="form" onSubmit={handleSubmit} action="">
-        <h3>Войти</h3>
+        <h3>Вход</h3>
         <input
           type="text"
           name="username..."
@@ -27,7 +27,7 @@ export default function LogIn() {
           onChange={(e) => setName(e.target.value)}
           placeholder="Введите своё имя"
         />
-        <button>Войти</button>
+        <button>Вход</button>
       </form>
     </div>
   );

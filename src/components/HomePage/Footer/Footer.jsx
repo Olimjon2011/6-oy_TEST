@@ -1,14 +1,11 @@
 import "./Footer.css";
-import logo2 from "../../../assets/logo (6).svg";
-import social from "../../../assets/Social.png";
-import disign from "../../../assets/logo-zasovskiy-small-black.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <Link to='/home'>
-        <img src={logo2} alt="logo2" />
+        <img src='./src/assets/footerLogo.svg' alt="logo2" />
       </Link>
       <ul className="footer__list">
         <li style={{ cursor: 'pointer' }}>О компании</li>
@@ -17,7 +14,7 @@ export default function Footer() {
         <li style={{ cursor: 'pointer' }}>Статьи</li>
         <li style={{ cursor: 'pointer' }}>Политика обработки персональных данных</li>
       </ul>
-      <img src={social} alt="social" />
+      <img src='./src/assets/Social.png' alt="social" />
       <div>
         <div className="phone">
           <i className="fa-solid fa-phone"></i>
@@ -25,7 +22,7 @@ export default function Footer() {
         </div>
         <div className="design">
           <span>Дизайн    </span>
-          <img src={disign} alt="disagn" />
+          <img src='./src/assets/logo-zasovskiy-small-black.png' alt="disagn" />
         </div>
       </div>
     </footer>
