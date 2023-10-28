@@ -18,8 +18,8 @@ export default function NewProduct({ product, removeItem }) {
               <i className="fa-solid fa-star"></i>
               <i className="fa-solid fa-star"></i>
             </div>
-            <button onClick={() => navigate(`/single/${id}`)}>Info</button>
-            <button className="remove" onClick={() => removeItem(id)}>Remove</button>
+            <button onClick={() => navigate(`/single/${id}`)}>Информация</button>
+            <button className="remove" onClick={() => removeItem(id)}>Удалить</button>
           </div>
         );
       })}

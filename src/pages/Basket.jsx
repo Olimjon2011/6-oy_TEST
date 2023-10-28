@@ -9,7 +9,7 @@ export default function Basket() {
     <div>
       <Header/>
       <div className="basket main">
-        <h2>Чтобы добавить нажмите на кнопку "Корзина"</h2>
+        <h2>Чтобы добавить нажмите на кнопку "В корзину"</h2>
         {basket.map((item) => {
           const { id, title, price } = item;
           return (

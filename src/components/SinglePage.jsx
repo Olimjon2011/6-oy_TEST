@@ -16,7 +16,7 @@ export default function SinglePage() {
           <h1>Mahsulot: {singleProduct.title}</h1>
           <h2>1dona = {singleProduct.price} so'm</h2>
           <h6>O'zbekistonda ishlab chiqarilgan</h6>
-          <button onClick={() => addToBasket(id)}>Корзина</button>
+          <button onClick={() => addToBasket(id)}>В корзину</button>
         </div>
         <Footer />
     </div>

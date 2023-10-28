@@ -10,7 +10,7 @@ export default function AddCard() {
     setName,
     price,
     setPrice,
-    handeSubmitSecond,
+    handleSubmitSecond,
     product,
     removeItem
   } = useGlobalContext()
@@ -18,7 +18,7 @@ export default function AddCard() {
     <div>
         <Header />
         <div className="main" style={{paddingTop: "40px"}}>
-        <form  style={{paddingLeft: "116px",paddingRight:"116px"}} action="" onSubmit={handeSubmitSecond}>
+        <form  style={{paddingLeft: "116px",paddingRight:"116px"}} action="" onSubmit={handleSubmitSecond}>
             <input placeholder="Название" type="text" name="title" value={name} onChange={(e) => setName(e.target.value)}  id="" />
             <br />
             <input placeholder="Стоимость(UZS)" type="text" name="title" value={price} onChange={(e) => setPrice(e.target.value)}  id="" />

@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
     const [basket, setBasket] = useState(getStore("basket"));
     const [users, setUsers] = useState(getStore("users"));
 
-    const handeSubmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         if (!user) {
           alert("Ничего не написано");
@@ -29,7 +29,7 @@ const AppProvider = ({ children }) => {
           setUser("");
         }
     };
-    const handeSubmitSecond = (e) => {
+    const handleSubmitSecond = (e) => {
         e.preventDefault();
         if (name && price) {
           const newItem = { id: id, title: name, price: price, img: img };
@@ -72,8 +72,8 @@ const AppProvider = ({ children }) => {
         setBasket,
         users,
         setUsers,
-        handeSubmit,
-        handeSubmitSecond,
+        handleSubmit,
+        handleSubmitSecond,
         removeItem,
         addToBasket,
         goToAddCard
