@@ -1,4 +1,3 @@
-import slider from "../../../assets/Sliders.png";
 import "./Main.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -6,7 +5,7 @@ export default function Main() {
   return (
     <main className="main">
       <section className="main__slider">
-        <img src={slider} alt="slider" />
+        <img src='./src/assets/Sliders.png' alt="slider" />
       </section>
       <section className="main__products">
         <div>
