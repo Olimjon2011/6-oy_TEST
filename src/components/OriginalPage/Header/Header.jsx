@@ -40,7 +40,7 @@ export default function Header({goToAddCard}) {
           <button className='register' onClick={() =>goToAddCard()}>
             <div className='register_div'>
               <img className='img1' src="./src/assets/avatar.svg" alt="" />
-              <h1>Крутой2011</h1>
+              <h1>Крутой</h1>
               <img className='img2' src="./src/assets/Button.svg" alt="" />
             </div>
           </button>
