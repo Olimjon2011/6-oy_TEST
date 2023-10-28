@@ -261,7 +261,7 @@ export default function Main() {
             </div>
           </div>
           <div>
-            <img src='./src/assets/spring.png' alt="article" />
+            <img src='./src/assets/girlday.png' alt="article" />
             <div className="text">
               <small>05.03.2021</small>
               <h4>Весеннее настроение для каждой</h4>
