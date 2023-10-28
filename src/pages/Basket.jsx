@@ -7,7 +7,7 @@ export default function Basket() {
   const { basket } = useGlobalContext()
   return (
     <div>
-      <Header />
+      <Header goToAddCard={goToAddCard}/>
       <div className="basket main">
         <h2>Ничего нету</h2>
         {basket.map((item) => {

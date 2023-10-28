@@ -7,7 +7,7 @@ export default function Dashboard() {
   const { user } = useGlobalContext();
     return (
       <div>
-        <Header />
+        <Header goToAddCard={goToAddCard}/>
         <Main />
         <Footer />
       </div>

@@ -16,7 +16,7 @@ export default function AddCard() {
   } = useGlobalContext()
   return (
     <div>
-        <Header/>
+        <Header goToAddCard={goToAddCard}/>
         <div className="main" style={{paddingTop: "40px"}}>
         <form  style={{paddingLeft: "116px",paddingRight:"116px"}} action="" onSubmit={handeSubmitSecond}>
             <input placeholder="Название" type="text" name="title" value={name} onChange={(e) => setName(e.target.value)}  id="" />
