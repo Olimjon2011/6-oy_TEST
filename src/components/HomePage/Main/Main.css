@@ -139,7 +139,7 @@
   line-height: 150%;
   border: 0;
 }
-.main__ourshops div button:focus {
+.main__ourshops div button:hover {
   border-radius: 4px;
   transition: all 0.5s ease-in-out;
   background: var(--main-secondary, #70c05b);
