@@ -3,13 +3,14 @@ import '../App.css'
 import Header from "./HomePage/Header/Header";
 import Footer from "./HomePage/Footer/Footer";
 import { useGlobalContext } from "../context";
-export default function SinglePage({goToAddCard}) {
+
+export default function SinglePage() {
   const {product, addToBasket} = useGlobalContext()
     const {id} = useParams();
     let singleProduct = product.find((item) => item.id === id)
   return (
     <div className="main">
-        <Header goToAddCard={goToAddCard}/>
+        <Header/>
         <div className="singleproduct">
           <img src={singleProduct.img} alt="singleproduct" />
           <h1>Mahsulot: {singleProduct.title}</h1>

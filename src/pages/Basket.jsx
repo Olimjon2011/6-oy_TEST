@@ -3,11 +3,11 @@ import Header from "../components/HomePage/Header/Header";
 import '../App.css'
 import { useGlobalContext } from "../context";
 
-export default function Basket({goToAddCard}) {
+export default function Basket() {
   const { basket } = useGlobalContext()
   return (
     <div>
-      <Header goToAddCard={goToAddCard}/>
+      <Header/>
       <div className="basket main">
         <h2>Ничего нету</h2>
         {basket.map((item) => {

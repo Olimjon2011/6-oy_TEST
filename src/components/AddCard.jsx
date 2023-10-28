@@ -4,7 +4,7 @@ import Footer from "./HomePage/Footer/Footer";
 import Header from "./HomePage/Header/Header";
 import './Products/Products.css'
 
-export default function AddCard({goToAddCard}) {
+export default function AddCard() {
   const {
     name,
     setName,
@@ -16,7 +16,7 @@ export default function AddCard({goToAddCard}) {
   } = useGlobalContext()
   return (
     <div>
-        <Header goToAddCard={goToAddCard}/>
+        <Header />
         <div className="main" style={{paddingTop: "40px"}}>
         <form  style={{paddingLeft: "116px",paddingRight:"116px"}} action="" onSubmit={handeSubmitSecond}>
             <input placeholder="Название" type="text" name="title" value={name} onChange={(e) => setName(e.target.value)}  id="" />
