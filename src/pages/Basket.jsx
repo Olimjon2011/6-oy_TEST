@@ -9,12 +9,12 @@ export default function Basket() {
     <div>
       <Header/>
       <div className="basket main">
-        <h2>Ничего нету</h2>
+        <h2>Чтобы добавить нажмите на кнопку "Корзина"</h2>
         {basket.map((item) => {
           const { id, title, price } = item;
           return (
             <div key={id}>
-              <h3>{title}: {price} uzs</h3>
+              <h3>{title}: {price} so'm</h3>
             </div>
           );
         })}

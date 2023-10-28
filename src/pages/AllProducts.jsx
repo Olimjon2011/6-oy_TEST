@@ -7,7 +7,7 @@ export default function AllProducts() {
   const { goToAddCard } = useGlobalContext();
   return (
     <div>
-      <Header/>
+      <Header goToAddCard={goToAddCard}/>
       <Products />
       <Footer/>
     </div>
