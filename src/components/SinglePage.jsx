@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import '../App.css'
-import Header from "./HomePage/Header/Header";
-import Footer from "./HomePage/Footer/Footer";
+import Header from "./OriginalPage/Header/Header";
+import Footer from "./OriginalPage/Footer/Footer";
 import { useGlobalContext } from "../context";
 
 export default function SinglePage() {

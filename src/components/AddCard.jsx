@@ -1,7 +1,7 @@
 import { useGlobalContext } from "../context";
 import NewProduct from "../pages/NewProduct";
-import Footer from "./HomePage/Footer/Footer";
-import Header from "./HomePage/Header/Header";
+import Footer from "./OriginalPage/Footer/Footer";
+import Header from "./OriginalPage/Header/Header";
 import './Products/Products.css'
 
 export default function AddCard() {

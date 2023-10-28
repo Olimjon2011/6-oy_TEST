@@ -1,7 +1,7 @@
 import { useGlobalContext } from "../context";
-import Footer from "./HomePage/Footer/Footer";
-import Header from "./HomePage/Header/Header";
-import Main from "./HomePage/Main/Main";
+import Footer from "./OriginalPage/Footer/Footer";
+import Header from "./OriginalPage/Header/Header";
+import Main from "./OriginalPage/Main/Main";
 
 export default function Dashboard() {
   const { user } = useGlobalContext();

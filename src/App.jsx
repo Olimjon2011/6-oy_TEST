@@ -8,7 +8,7 @@ import Error from "./pages/Error";
 import AddCard from "./components/AddCard";
 import SinglePage from "./components/SinglePage";
 import ProtectRoute from "./components/ProtectRoute";
-import HomePage from "./components/HomePage";
+import HomePage from "./components/OriginalPage";
 import { useGlobalContext } from "./context";
 import LogIn from "./pages/LogIn";
 
