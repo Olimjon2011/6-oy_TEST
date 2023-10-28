@@ -9,7 +9,7 @@ export default function SinglePage() {
     let singleProduct = product.find((item) => item.id === id)
   return (
     <div className="main">
-        <Header/>
+        <Header />
         <div className="singleproduct">
           <img src={singleProduct.img} alt="singleproduct" />
           <h1>Mahsulot: {singleProduct.title}</h1>
@@ -17,7 +17,7 @@ export default function SinglePage() {
           <h6>O'zbekistonda ishlab chiqarilgan</h6>
           <button onClick={() => addToBasket(id)}>Корзина</button>
         </div>
-        <Footer/>
+        <Footer />
     </div>
   )
 }
