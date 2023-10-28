@@ -12,9 +12,9 @@ export default function SinglePage() {
         <Header/>
         <div className="singleproduct">
           <img src={singleProduct.img} alt="singleproduct" />
-          <h1>O'zbekistonda ishlab chiqarilgan</h1>
-          <h2>{singleProduct.title}</h2>
-          <h3>1dona = {singleProduct.price} so'm</h3>
+          <h1>Mahsulot: {singleProduct.title}</h1>
+          <h2>1dona = {singleProduct.price} so'm</h2>
+          <h6>O'zbekistonda ishlab chiqarilgan</h6>
           <button onClick={() => addToBasket(id)}>Корзина</button>
         </div>
         <Footer/>
