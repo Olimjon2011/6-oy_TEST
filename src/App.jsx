@@ -8,7 +8,7 @@ import Error from "./pages/Error";
 import AddCard from "./components/AddCard";
 import SinglePage from "./components/SinglePage";
 import ProtectRoute from "./components/ProtectRoute";
-import Dashboard from "./components/Dashboard";
+import HomePage from "./components/HomePage";
 import { useGlobalContext } from "./context";
 import LogIn from "./pages/LogIn";
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/addcard" element={<AddCard />}/>
         <Route path="/home" element={
             <ProtectRoute>
-              <Dashboard />
+              <HomePage />
             </ProtectRoute>
           } />
         <Route path="*" element={<Error />} />
