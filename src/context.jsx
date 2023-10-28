@@ -26,7 +26,7 @@ const AppProvider = ({ children }) => {
           const newItem = { id: id, name: user };
           setUsers([...users, newItem]);
           navigate('/home')
-          setUser("");
+          setUser('');
         }
     };
     const handleSubmitSecond = (e) => {
