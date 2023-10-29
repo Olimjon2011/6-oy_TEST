@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import getStore from "./utils/get";
+import getStore from "./utils/Get";
 import { useNavigate } from "react-router-dom";
 import { uid } from "uid";
 
