@@ -1,4 +1,4 @@
-import "../components/OriginalPage/Main/Main.css";
+import "../components/OriginalPage/forHomePage/forHomePage";
 import "../App.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
