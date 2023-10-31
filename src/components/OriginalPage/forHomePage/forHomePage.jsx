@@ -1,4 +1,4 @@
-import "./Main.css";
+import "./forHomePage.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Main() {
