@@ -237,7 +237,7 @@ export default function Main() {
         <div>
           <h3>Статьи</h3>
           <p style={{cursor: 'pointer'}}>
-            Все статьи <MdKeyboardArrowRight />
+            Все статьи <img src="./src/assets/chevron-right.png" alt="" />
           </p>
         </div>
         <div>
