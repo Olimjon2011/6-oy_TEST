@@ -1,5 +1,4 @@
 import "./forHomePage.css";
-import { MdKeyboardArrowRight } from "react-icons/md";
 
 export default function Main() {
   return (
@@ -11,7 +10,7 @@ export default function Main() {
         <div>
           <p>Акции</p>
           <p style={{cursor: 'pointer'}}>
-            Все продукты <MdKeyboardArrowRight />
+            Все продукты <img src="./src/assets/chevron-right.png" alt="" />
           </p>
         </div>
         <div className="main__promotion-products">
@@ -81,7 +80,7 @@ export default function Main() {
       <div>
           <p>Новинки</p>
           <p style={{cursor: 'pointer'}}>
-            Все продукты <MdKeyboardArrowRight />
+            Все продукты <img src="./src/assets/chevron-right.png" alt="" />
           </p>
         </div>
         <div className="main__promotion-products">
@@ -151,7 +150,7 @@ export default function Main() {
         <div>
           <p>Покупали раньше</p>
           <p style={{cursor: 'pointer'}}>
-            Все продукты <MdKeyboardArrowRight />
+            Все продукты <img src="./src/assets/chevron-right.png" alt="" />
           </p>
         </div>
         <div className="main__promotion-products">
